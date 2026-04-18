@@ -7,7 +7,7 @@ Repositório dedicado ao estudo dos fundamentos de programação utilizando a li
 - *Módulos 05 e 06:* Estruturas condicionais e de repetição (While, For).
 - *Módulo 07:* Variáveis compostas e Arrays (Vetores).
 - *Módulos 08 e 09:* Programação estruturada e Funções.
-- * [- *Módulo 10:* Vetores.](./10_Vetores)
+- [- *Módulo 10:* Vetores.](./10_Vetores)
 
 ## 🛠️ Tecnologias e Ferramentas
 - Java SDK
