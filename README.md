@@ -6,7 +6,7 @@ Repositório dedicado ao estudo dos fundamentos de programação utilizando a li
 - *Módulos 01 a 04:* Conceitos aritméticos, operadores lógicos e estruturas básicas.
 - *Módulos 05 e 06:* Estruturas condicionais e de repetição (While, For).
 - *Módulo 07:* Variáveis compostas e Arrays (Vetores).
-- *Módulos 08 e 09:* Programação estruturada e Funções.[*Módulo 08 e 09:* 09:*Programação Estruturada.](./08_Logica_De_Programa_Estruturada) e [Funções](./09_Funcoes).
+- *Módulos 08 e 09:* Programação estruturada e Funções.[*Módulo 08 e 09:* Programação Estruturada.](./08_Logica_De_Programa_Estruturada) e [Funções](./09_Funcoes).
 - [*Módulo 10:* Vetores.](./10_Vetores)
 
 ## 🛠️ Tecnologias e Ferramentas
