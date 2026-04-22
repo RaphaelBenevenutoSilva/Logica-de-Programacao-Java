@@ -8,7 +8,7 @@ Repositório dedicado ao estudo dos fundamentos de programação utilizando a li
 - *Módulo 07:* Variáveis compostas e Arrays (Vetores).
 - *Módulos 08 e 09:* Programação estruturada e Funções
 - [*Módulo 10:* Vetores.](./10_Vetores)
-- [*Módulo 11:* Vetores.](./11_Matriz)
+- [*Módulo 11:* Matriz.](./11_Matriz)
 
 ## 🛠️ Tecnologias e Ferramentas
 - Java SDK
