@@ -4,7 +4,7 @@ Este módulo representa um grande salto na minha lógica de programação. Aqui,
 
 ## 📝 Projetos Neste Módulo:
 
-* `ProdutoPromocao` (⭐ Destaque de Estrutura Moderna):
+* **`ProdutoPromocao`**(⭐ Destaque de Estrutura Moderna):
     * **Descrição:** Simulador de PDV para camisas de times com aplicação de 5% de desconto automático.
     * **Destaque Técnico:** Uso de **Switch Case Moderno** com `arrow functions` (`->`) e a palavra-chave `yield` para retorno de dados, demonstrando domínio das atualizações do Java 14+.
 
