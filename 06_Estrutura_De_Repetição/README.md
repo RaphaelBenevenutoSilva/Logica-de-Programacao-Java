@@ -5,15 +5,15 @@ Este módulo marca a transição para algoritmos de alta eficiência, focando no
 ## 📝 O que você vai encontrar aqui:
 
 * **Processamento de Dados e Estatísticas:**
-    * `AnalisadorDeValores`: Um algoritmo que processa uma sequência de entradas para calcular somatórios, médias aritméticas e identificar propriedades como números nulos ou divisíveis por 5.
-    * `CadastroSeletorDePessoas` (⭐ Destaque de Lógica): Um sistema de filtragem demográfica que utiliza a estrutura `do-while` para capturar dados e loops `while(true)` internos com `break` para garantir a integridade das entradas via console.
+    * **`AnalisadorDeValores`**: Um algoritmo que processa uma sequência de entradas para calcular somatórios, médias aritméticas e identificar propriedades como números nulos ou divisíveis por 5.
+    * **`CadastroSeletorDePessoas`** (⭐ Destaque de Lógica): Um sistema de filtragem demográfica que utiliza a estrutura `do-while` para capturar dados e loops `while(true)` internos com `break` para garantir a integridade das entradas via console.
 
 * **Contagens e Fluxos Inteligentes:**
-    * `ContagemInteligente`: Um script versátil que identifica automaticamente se a contagem deve ser crescente ou decrescente com base nos limites informados pelo usuário.
-    * `ContadorDe10a0`: Implementação de uma contagem regressiva clássica de 10 até 0.
+    * **`ContagemInteligente`**: Um script versátil que identifica automaticamente se a contagem deve ser crescente ou decrescente com base nos limites informados pelo usuário.
+    * **`ContadorDe10a0`**: Implementação de uma contagem regressiva clássica de 10 até 0.
 
 * **Iterações Avançadas e Tempo:**
-    * `Combinacoes`: Demonstração prática de **Laços Aninhados** (nested loops) para gerar combinações numéricas, essencial para entender estruturas de dados complexas.
+    * **`Combinacoes`**: Demonstração prática de **Laços Aninhados** (nested loops) para gerar combinações numéricas, essencial para entender estruturas de dados complexas.
 
 ## 🛠️ Tecnologias e Conceitos Explorados:
 
