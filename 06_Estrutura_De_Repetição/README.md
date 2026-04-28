@@ -1,23 +1,33 @@
-# ↻ 06. Estruturas de Repetição (Parte 1)
+# 🔄 06. Estruturas de Repetição (Parte 2)
 
-Este módulo é focado no aprendizado das estruturas de repetição (loops) em Java, abordando conceitos fundamentais como `for` e `do-while`. Os projetos exploram desde contagens simples até a análise de dados e interação com o usuário.
+Este módulo aprofunda o uso de loops em Java, focando especialmente na estrutura `do-while` e em algoritmos matemáticos. O objetivo foi criar interfaces de menu interativas e sistemas que garantem a execução de pelo menos um bloco de código antes da verificação condicional.
 
-## 📂 Projetos neste Módulo:
+## 📝 Projetos Neste Módulo:
 
-| Projeto | Descrição | Conceitos Chave |
-| :--- | :--- | :--- |
-| **AnalisadorDeValores** | Lê 5 valores e calcula a soma, média, números divisíveis por 5, valores nulos e soma dos pares. | `for`, `if/else`, `DecimalFormat` |
-| **CadastroSeletorDePessoas** | Sistema de cadastro que filtra pessoas por sexo, idade e cor de cabelo. | `do-while`, `switch-case`, validação de entrada |
-| **ContagemInteligente** | Realiza contagens progressivas ou regressivas dependendo dos valores de início e fim. | `StringJoiner`, controle de fluxo |
-| **ContadorDe10a0** | Contagem regressiva simples com intervalo de 1 segundo entre os números. | `TimeUnit.SECONDS.sleep`, `try-catch` |
-| **Combinacoes** | Exibe combinações numéricas utilizando loops aninhados. | Loops aninhados (Nested Loops) |
+### 🖥️ Menus e Interação com o Usuário
 
-## ⚙️ Tecnologias e Conceitos Explorados:
+* **DesejaContinuarSimOuNao** (⭐ Destaque de Validação):
+    * **Descrição:** Um somador de números acumulativo que pergunta ao usuário se ele deseja continuar após cada operação.
+* **MenuContador & MenuContadorSwitch**:
+    * **Descrição:** Menus interativos que permitem escolher entre contagem crescente (1 a 10) ou decrescente (10 a 1).
+    * **Destaque Técnico:** Comparação prática entre `if-else` vs `switch-case` dentro de um laço `do-while` para controle de fluxo.
 
-* **Estruturas de Controle:** Uso de `for` para contagens definidas e `do-while` para garantir a execução inicial de menus.
-* **Manipulação de Strings:** Utilização de `StringJoiner` para formatar listas de saída separadas por vírgulas.
-* **Controle de Tempo:** Implementação de `TimeUnit` para criar pausas na execução do console.
-* **Lógica Matemática:** Cálculos de média, resto da divisão (módulo) e acumuladores de soma.
+### 🔢 Cálculos e Estrutura Fundamental
+
+* **FatorialDeUmNumero**:
+    * **Descrição:** Cálculo matemático de fatorial utilizando um laço `for` decrescente.
+    * **Destaque Técnico:** Uso do tipo `long` para o resultado, garantindo suporte a números que ultrapassam o limite do `int`.
+* **Do1**:
+    * **Descrição:** Exemplo fundamental para fixação da estrutura `do-while`.
+    * **Destaque Técnico:** Demonstração da garantia de execução inicial do bloco de código, independentemente da condição no primeiro teste.
+
+## 🛠️ Tecnologias e Conceitos Explorados:
+
+* **Estrutura Do-While:** Implementação de fluxos onde o teste da condição ocorre após a execução do bloco.
+* **Acumuladores e Contadores:** Uso de variáveis para soma cumulativa (`total += numero`) e controle de iterações.
+* **Interface de Console:** Criação de menus visuais utilizando `.repeat()` para formatação de divisórias.
+* **Robustez de Código:** Uso de loops controlados e sanitização de entradas para evitar erros de execução.
 
 ---
-*Este repositório registra minha evolução na lógica de programação com Java.*
+
+*Estes exercícios fazem parte da minha jornada de estudos baseada no curso "Java para Iniciantes" do Curso em Vídeo (Prof. Gustavo Guanabara).*
