@@ -4,23 +4,23 @@ Este módulo consolida o uso de estruturas de repetição em Java, focando em al
 
 ## 📝 Projetos Neste Módulo:
 
-* `ProjetoCadastroComSwitch` (⭐ Destaque de Backend):
+* **`ProjetoCadastroComSwitch`** (⭐ Destaque de Backend):
     * **Descrição:** Um sistema de gerenciamento de usuários completo via console.
     * **Destaque Técnico:** Uso de `ArrayList<Usuario>` para armazenamento dinâmico e um menu `switch-case` para operações de Cadastro, Listagem e Busca de usuários por nome.
 
-* `NumeroPrimo`:
+* **`NumeroPrimo`**:
     * **Descrição:** Algoritmo que identifica se um número é primo com base na quantidade de divisores encontrados durante a iteração.
     * **Destaque Técnico:** Uso de contador de ocorrências dentro de um laço para validar uma regra matemática específica.
 
-* `NotasDosAlunosMelhorAproveitamento`:
+* **`NotasDosAlunosMelhorAproveitamento`**:
     * **Descrição:** Um sistema que lê nomes e notas de uma turma e identifica qual aluno teve o melhor desempenho.
     * **Destaque Técnico:** Lógica de comparação para atualização de variáveis de "maior valor" (`if (nota > maiorNota)`).
 
-* `QuantosEntre0e10` & `QuantosNumerosSaoNegativos`:
+* **`QuantosEntre0e10`** & **`QuantosNumerosSaoNegativos`**:
     * **Descrição:** Scripts focados em filtragem e contagem seletiva de valores dentro de um fluxo de dados.
     * **Destaque Técnico:** Aplicação de condicionais compostas (`&&`) e operadores de resto de divisão (`%`) dentro de laços `for`.
 
-* `SomaDeTodosOsValoresDigitados`:
+* **`SomaDeTodosOsValoresDigitados`**:
     * **Descrição:** Processa uma sequência de números para entregar a soma total, o maior e o menor valor digitado.
     * **Destaque Técnico:** Inicialização de variáveis de comparação no primeiro ciclo do laço para garantir precisão estatística.
 
