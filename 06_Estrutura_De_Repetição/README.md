@@ -1,39 +1,39 @@
 # 🔄 06. Estruturas de Repetição (Parte 1)
 
-Este módulo foca na base das estruturas de repetição em Java, explorando principalmente o laço `for` e o uso de acumuladores. O objetivo foi resolver problemas clássicos de lógica, como contagens personalizadas, análise de dados de entrada e combinações de valores.
+Este módulo marca o início dos estudos sobre laços de repetição em Java. Os projetos aqui focam na utilização do laço `for` para processamento de dados, automação de contagens e geração de combinações lógicas.
 
 ## 📝 Projetos Neste Módulo:
 
-### 🖥️ Análise e Processamento de Dados
+### 📊 Processamento de Dados e Estatística
 
-* **AnalisadorDeValores:**
-    * **Descrição:** Um sistema que recebe 5 números e entrega um relatório detalhado (Soma, Média, Divisíveis por 5 e Nulos).
-    * **Destaque Técnico:** Uso de operadores aritméticos de resto (`%`) para filtragem e `DecimalFormat` para garantir uma saída de média limpa.
+* `AnalisadorDeValores`
+    * **Descrição:** Recebe 5 números do usuário e gera um relatório estatístico completo.
+    * **Lógica de Negócio:** Calcula soma, média, identifica nulos, números divisíveis por 5 e realiza a soma específica de valores pares.
+    * **Destaque Técnico:** Uso de `DecimalFormat` para tratar a precisão da média.
 
-* **CadastroSeletorDePessoas:**
-    * **Descrição:** Um sistema de triagem que filtra pessoas por sexo, idade e cor de cabelo.
-    * **Destaque Técnico:** Implementação de um **loop de validação robusto** para garantir que o usuário só digite "S" ou "N", tratando erros com `equalsIgnoreCase`.
+* `CadastroSeletorDePessoas`
+    * **Descrição:** Um sistema de triagem populacional que filtra perfis específicos (ex: homens maiores de 18 com cabelos castanhos).
+    * **Lógica de Negócio:** Utiliza um laço `do-while` para manter o sistema rodando e loops `while(true)` aninhados para validação rigorosa de entrada (sexo e resposta de continuidade).
+    * **Destaque Técnico:** Implementação de sanitização de dados com `equalsIgnoreCase`.
 
-### 🔢 Contagens e Lógica Matemática
+### ⏲️ Automação de Fluxo e Contagens
 
-* **ContagemInteligente:**
-    * **Descrição:** Um contador que identifica se o início é maior que o fim (contagem regressiva) ou menor (contagem crescente) automaticamente.
-    * **Destaque Técnico:** Uso de `StringJoiner` para formatar a lista de números separada por vírgulas, evitando aquela vírgula sobrando no final.
+* `ContagemInteligente`
+    * **Descrição:** Um contador dinâmico que detecta automaticamente se deve realizar uma contagem crescente ou regressiva.
+    * **Destaque Técnico:** Uso da classe `StringJoiner` para formatar a saída de texto com delimitadores, garantindo um visual limpo no console.
 
-* **ContadorDe10a0:**
-    * **Descrição:** Exercício clássico de contagem regressiva com pausa.
-    * **Destaque Técnico:** Aplicação de `TimeUnit.SECONDS.sleep(1)` para simular o tempo real de um cronômetro.
+* `ContadorDe10a0`
+    * **Descrição:** Simulação de um cronômetro regressivo com pausa programada.
+    * **Destaque Técnico:** Aplicação de `TimeUnit.SECONDS.sleep(1)` para controle de tempo real, demonstrando o manuseio de `InterruptedException`.
 
-* **Combinacoes:**
-    * **Descrição:** Algoritmo que gera pares de números utilizando laços aninhados.
-    * **Destaque Técnico:** Domínio de **Nested Loops** (um `for` dentro de outro) para percorrer múltiplas variáveis simultaneamente.
+### 🧬 Algoritmos Combinatórios
+
+* `Combinacoes`
+    * **Descrição:** Gera pares ordenados de números (Matriz de combinação) utilizando laços aninhados.
+    * **Destaque Técnico:** Estudo de **Nested Loops** (laço dentro de laço) e sua execução sequencial cronometrada.
 
 ## 🛠️ Tecnologias e Conceitos Explorados:
 
-* **Estrutura For:** Controle preciso de iterações com inicialização, condição e incremento/decremento.
-* **StringJoiner:** Manipulação avançada de strings para saídas formatadas.
-* **Tratamento de Exceções:** Uso de `try-catch` para lidar com interrupções de tempo (`InterruptedException`).
-* **Acumuladores e Contadores:** Lógica de soma composta (`soma += valor`) e incremento de ocorrências.
-
----
-*Estes exercícios fazem parte da minha jornada de estudos baseada no curso "Java para Iniciantes" do Curso em Vídeo (Prof. Gustavo Guanabara).*
+* **Controle de Fluxo:** Laços `for`, `do-while` e `while` com interrupções controladas (`break`).
+* **Validação de Entrada:** Loops infinitos para forçar a entrada correta de dados pelo usuário.
+* **Format
