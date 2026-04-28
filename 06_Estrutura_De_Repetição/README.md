@@ -1,39 +1,50 @@
-# 🔄 06. Estruturas de Repetição (Parte 1)
+# 🔄 Estruturas de Repetição em Java
 
-Este módulo marca o início dos estudos sobre laços de repetição em Java. Os projetos aqui focam na utilização do laço `for` para processamento de dados, automação de contagens e geração de combinações lógicas.
+Este diretório contém uma série de exercícios práticos focados no domínio de estruturas de controle de fluxo (loops) em Java, como `for`, `while` e `do-while`. Os projetos fazem parte da minha trilha de aprendizado em Lógica de Programação e Desenvolvimento Backend.
 
-## 📝 Projetos Neste Módulo:
+## 🚀 Tecnologias Utilizadas
+* **Java 17+**
+* **Scanner & StringJoiner** (Manipulação de entrada e strings)
+* **TimeUnit** (Controle de tempo/delay)
+* **DecimalFormat** (Formatação numérica)
 
-### 📊 Processamento de Dados e Estatística
+---
 
+## 📂 Projetos no Diretório
+
+### 1. 📊 Análise Estatística
 * `AnalisadorDeValores`
-    * **Descrição:** Recebe 5 números do usuário e gera um relatório estatístico completo.
-    * **Lógica de Negócio:** Calcula soma, média, identifica nulos, números divisíveis por 5 e realiza a soma específica de valores pares.
-    * **Destaque Técnico:** Uso de `DecimalFormat` para tratar a precisão da média.
+    * Programa que solicita 5 valores ao usuário e realiza uma análise estatística completa.
+    * **Conceitos:** Loop `for`, acumuladores, contadores e operadores de resto (`%`).
 
+### 2. 👥 Filtragem Demográfica
 * `CadastroSeletorDePessoas`
-    * **Descrição:** Um sistema de triagem populacional que filtra perfis específicos (ex: homens maiores de 18 com cabelos castanhos).
-    * **Lógica de Negócio:** Utiliza um laço `do-while` para manter o sistema rodando e loops `while(true)` aninhados para validação rigorosa de entrada (sexo e resposta de continuidade).
-    * **Destaque Técnico:** Implementação de sanitização de dados com `equalsIgnoreCase`.
+    * Um sistema interativo de triagem (Gênero, Idade, Cor do Cabelo).
+    * **Conceitos:** Estrutura `do-while`, `switch-case` e validação de entrada com `while(true)`.
 
-### ⏲️ Automação de Fluxo e Contagens
-
-* `ContagemInteligente`
-    * **Descrição:** Um contador dinâmico que detecta automaticamente se deve realizar uma contagem crescente ou regressiva.
-    * **Destaque Técnico:** Uso da classe `StringJoiner` para formatar a saída de texto com delimitadores, garantindo um visual limpo no console.
-
-* `ContadorDe10a0`
-    * **Descrição:** Simulação de um cronômetro regressivo com pausa programada.
-    * **Destaque Técnico:** Aplicação de `TimeUnit.SECONDS.sleep(1)` para controle de tempo real, demonstrando o manuseio de `InterruptedException`.
-
-### 🧬 Algoritmos Combinatórios
-
+### 3. 🧩 Lógica Combinatória
 * `Combinacoes`
-    * **Descrição:** Gera pares ordenados de números (Matriz de combinação) utilizando laços aninhados.
-    * **Destaque Técnico:** Estudo de **Nested Loops** (laço dentro de laço) e sua execução sequencial cronometrada.
+    * Gera combinações numéricas entre dois contadores de 1 a 3.
+    * **Conceitos:** Loops aninhados (Nested Loops) e controle de exceções com `try-catch`.
 
-## 🛠️ Tecnologias e Conceitos Explorados:
+### 4. ⏳ Temporizador Regressivo
+* `ContadorDe10a0`
+    * Uma contagem regressiva simples com pausa de 1 segundo entre os números.
+    * **Conceitos:** Loop `for` com decremento e manipulação de tempo com `TimeUnit`.
 
-* **Controle de Fluxo:** Laços `for`, `do-while` e `while` com interrupções controladas (`break`).
-* **Validação de Entrada:** Loops infinitos para forçar a entrada correta de dados pelo usuário.
-* **Format
+### 5. 💡 Fluxo Dinâmico
+* `ContagemInteligente`
+    * Realiza uma contagem identificando automaticamente se a ordem deve ser crescente ou decrescente.
+    * **Conceitos:** Condicionais dentro de loops e uso do `StringJoiner` para formatação elegante.
+
+---
+
+## 🛠️ Como executar
+1. Certifique-se de ter o JDK instalado.
+2. Clone o repositório.
+3. Abra os arquivos na sua IDE de preferência (ex: NetBeans, IntelliJ).
+4. Execute a classe principal de cada pacote.
+
+---
+**Formação:** Análise e Desenvolvimento de Sistemas (UNIMETROCAMP Wyden)  
+**Foco:** Backend | Java
