@@ -1,30 +1,47 @@
-# 🚀 Estruturas Condicionais em Java
+# ⚖️ 05. Estruturas Condicionais
 
-Este repositório contém uma série de exercícios práticos focados no aprendizado de **Estruturas Condicionais** (Simples, Compostas, Encadeadas e Múltipla Escolha) na linguagem Java. 
+Este módulo representa um grande salto na minha lógica de programação. Aqui, deixei de lado a execução linear para explorar o controle de fluxo inteligente. Os projetos abaixo cobrem desde decisões simples (`if-else`) até seleções múltiplas avançadas, com foco em código limpo e experiência do usuário.
 
-Os exercícios fazem parte da minha jornada de estudos em **Análise e Desenvolvimento de Sistemas**, seguindo a metodologia do Prof. Gustavo Guanabara (Curso em Vídeo) e referências de mercado como Fernanda Kipper.
+## 📝 Projetos Neste Módulo:
 
-## 🛠️ O que foi praticado:
-* **Condicionais if/else:** Controle de fluxo para decisões lógicas.
-* **Switch Case (Modern Java):** Utilização de `switch expressions` e `yield` para códigos mais limpos.
-* **Manipulação de Dados:** Uso da classe `Scanner` para entrada de dados.
-* **Formatação:** Uso de `DecimalFormat`, `NumberFormat` e `Locale` para moeda brasileira (R$).
-* **Tratamento de Erros:** Implementação de blocos `try-catch` para evitar crash do programa.
+* **ProdutoPromocao (⭐ Destaque de Estrutura Moderna)**
+    * **Descrição:** Simulador de PDV para camisas de times com aplicação de 5% de desconto automático.
+    * **Destaque Técnico:** Uso de **Switch Case Moderno** com `arrow functions` (`->`) e a palavra-chave `yield` para retorno de dados, demonstrando domínio das atualizações do Java 14+.
+
+* **CalculoIMC**
+    * **Descrição:** Calcula o Índice de Massa Corporal e classifica a saúde do usuário em 7 níveis diferentes.
+    * **Destaque Técnico:** Implementação de **Condicionais Encadeadas** complexas e uso da classe `DecimalFormat` para padronizar a exibição dos resultados.
+
+* **NovoSalario**
+    * **Descrição:** Calcula o reajuste salarial anual baseado no número de dependentes da família.
+    * **Destaque Técnico:** Uso eficiente de **Múltiplos Rótulos** em um único `case`, reduzindo linhas de código e facilitando a manutenção.
+
+* **OpcaoCriancaEsperanca**
+    * **Descrição:** Menu interativo de doações com opções pré-definidas e valor livre.
+    * **Destaque Técnico:** Comparação de performance e legibilidade entre o uso de `if-else` e a organização por menus.
+
+* **NotaAluno**
+    * **Descrição:** Sistema de gestão escolar que define se o aluno está Aprovado, em Recuperação ou Reprovado.
+    * **Destaque Técnico:** Uso de **Operadores Lógicos** (`&&`) para definir faixas de notas precisas entre a aprovação e a recuperação.
+
+* **MaiorIdade**
+    * **Descrição:** Verifica a maioridade do usuário com base no ano atual e ano de nascimento.
+    * **Destaque Técnico:** Aplicação de **Condicional Composta** para gerar saídas de texto dinâmicas e personalizadas.
+
+* **ParImpar**
+    * **Descrição:** Identifica se um número inteiro qualquer é par ou ímpar.
+    * **Destaque Técnico:** Uso do **Operador Aritmético de Resto** (`%`) dentro de uma estrutura condicional simples.
+
+* **Teste (Lógica de Função)**
+    * **Descrição:** Um projeto de teste para validar operações matemáticas baseadas em condições de números pares/ímpares.
+    * **Destaque Técnico:** Integração de **Métodos Estáticos (Funções)** com estruturas de repetição (`for`) e decisão, calculando somatórios dinâmicos.
+
+## 🛠️ Tecnologias e Conceitos Explorados:
+
+* **Controle de Fluxo:** Domínio de `if`, `else if`, `else` e as novas `Switch Expressions`.
+* **Robustez de Código:** Uso de blocos `try-catch` para evitar erros quando o usuário digita letras onde deveriam ser números.
+* **Internacionalização:** Uso de `java.util.Locale` para garantir que o sistema entenda o formato de números e moedas do Brasil.
+* **Matemática Aplicada:** Uso da biblioteca `java.lang.Math` para cálculos de potência e precisão decimal.
 
 ---
-
-## 📂 Projetos no Repositório:
-
-| Projeto | Descrição | Conceito Chave |
-| :--- | :--- | :--- |
-| **CalculoIMC** | Calcula o índice de massa corporal e classifica a situação de saúde. | `if / else if` encadeado |
-| **NotaAluno** | Verifica se um aluno foi aprovado, reprovado ou está em recuperação. | Lógica de Médias |
-| **ProdutoPromocao** | Simulador de loja de camisas de time com cálculo de 5% de desconto. | `Switch case` com `yield` |
-| **NovoSalario** | Calcula reajuste salarial baseado na quantidade de dependentes. | `Switch case` moderno |
-| **MaiorIdade** | Verifica se o usuário já atingiu a maioridade legal. | Condicional simples |
-| **ParImpar** | Identifica se um número inteiro é par ou ímpar. | Operador de resto `%` |
-| **OpcaoCriancaEsperanca** | Menu de doações com múltiplas opções e valores personalizados. | `Switch` vs `If/Else` |
-
----
-
-
+*Estes exercícios fazem parte da minha jornada de estudos baseada no curso "Java para Iniciantes" do Curso em Vídeo (Prof. Gustavo Guanabara).*
