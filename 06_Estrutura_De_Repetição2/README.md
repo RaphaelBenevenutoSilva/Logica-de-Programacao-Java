@@ -1,7 +1,5 @@
 # 🔄 06. Estruturas de Repetição (Parte 2)
 
-# 🔄 06. Estruturas de Repetição (Parte 2)
-
 Este módulo aprofunda o uso de loops em Java, focando especialmente na estrutura `do-while` e em algoritmos matemáticos mais complexos. O objetivo foi criar interfaces de menu interativas e sistemas que garantem a execução de pelo menos um bloco de código antes da verificação condicional.
 
 ## 📝 Projetos Neste Módulo:
