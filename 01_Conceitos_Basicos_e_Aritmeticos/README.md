@@ -1,30 +1,45 @@
-# 📚 01. Conceitos Básicos e Aritméticos
+# 🏁 01. Conceitos Básicos e Aritméticos
 
-Este módulo contém os meus primeiros passos na linguagem Java, focando na sintaxe, operações matemáticas e manipulação simples de dados. O objetivo foi solidificar a base de como o Java lê e processa informações simples do usuário via console.
+Este módulo contém os primeiros passos na linguagem Java, focando na manipulação de variáveis, entrada de dados com a classe `Scanner`, saída de dados formatada e operações matemáticas fundamentais.
 
-### 📋 O que você vai encontrar aqui:
+## 📝 Projetos Neste Módulo:
 
-* **Estrutura Básica e Entrada de Dados:**
-    * `OlaMundo`: O clássico ponto de partida, focado em saída de texto simples.
-    * `QualSeuNome`: Demonstração de leitura de texto (`nextLine()`) com a classe `Scanner`.
-    * `Idade`: Lógica simples de subtração para calcular a idade com base no ano atual e de nascimento.
+### ⌨️ Entrada, Saída e Interação
 
-* **Operações Aritméticas e Manipulação de Variáveis:**
-    * `Soma`: Exemplo fundamental de leitura de inteiros (`nextInt()`) e soma de dois valores.
-    * `Media`: Cálculo de média aritmética entre dois números, introduzindo o tipo `float`.
-    * `NumeroAntecessorSucessor`: Manipulação direta de uma variável para encontrar seus vizinhos numéricos (+1, -1).
-    * `TercaParteDeUmNumero`: Demonstração de operações de multiplicação (dobro) e divisão (terça parte) com ponto flutuante.
+* **`OlaMundo`**: 
+    * **Descrição:** O clássico primeiro programa para validar o ambiente de desenvolvimento.
+* **`QualSeuNome`**: 
+    * **Descrição:** Programa interativo que lê o nome do usuário e exibe uma mensagem de boas-vindas.
+* **`NomeSalarioDoFuncionario`**: 
+    * **Descrição:** Lê o nome e o salário de um colaborador, exibindo-os de forma organizada.
+    * **Destaque Técnico:** Uso do `DecimalFormat` para exibir o salário com duas casas decimais.
 
-* **Mini-Problemas Práticos e Formatação:**
-    * `EmprestimoParcelarJuros`: Lógica de negócio simples para calcular parcelas com uma taxa fixa de 20%.
-    * `NomeSalarioDoFuncionario`: Demonstração de como lidar com leitura mista de dados (String e float) e formatação de moeda.
-    * `ParedeTinta`: Um problema de geometria aplicado, calculando área e quantidade de tinta necessária.
+### ➕ Cálculos e Aritmética
 
-### 🛠 Tecnologias e Conceitos Explorados:
+* **`Soma`** & **`Media`**: 
+    * **Descrição:** Programas que realizam operações básicas entre dois números inteiros e reais.
+* **`NumeroAntecessorSucessor`**: 
+    * **Descrição:** Lê um número inteiro e mostra seus vizinhos imediatos na reta numérica.
+* **`TercaParteDeUmNumero`**: 
+    * **Descrição:** Calcula o dobro e a terça parte de um valor informado.
+* **`Idade`**: 
+    * **Descrição:** Calcula a idade aproximada do usuário com base no ano atual e ano de nascimento.
 
-* **Entrada de Dados:** Classe `java.util.Scanner`.
-* **Manipulação de Tipos:** Uso de tipos primitivos (`int`, `float`) e `String`.
-* **Formatação:** Uso da classe `java.text.DecimalFormat` com padrões como `0.00` e `#.#` para controlar as casas decimais na saída do console.
+### 🏠 Aplicações Práticas
+
+* **`ParedeTinta`**: 
+    * **Descrição:** Calcula a área de uma parede e a quantidade de tinta necessária para pintá-la (considerando que cada litro de tinta pinta 2m²).
+* **`EmprestimoParcelarJuros`** (⭐ Destaque de Lógica):
+    * **Descrição:** Calcula o valor das parcelas de um empréstimo aplicando 20% de juros sobre o valor total.
+    * **Destaque Técnico:** Demonstração de cálculo de porcentagem e divisão de parcelas.
+
+## 🛠️ Tecnologias e Conceitos Explorados:
+
+* **Classe Scanner:** Captura de diferentes tipos de dados (`nextLine`, `nextInt`, `nextFloat`).
+* **Formatadores:** Uso de `DecimalFormat` para padronização de casas decimais em valores financeiros e medidas.
+* **Operadores Aritméticos:** Aplicação de soma, subtração, multiplicação e divisão.
+* **Boas Práticas:** Implementação do método `.close()` no Scanner para evitar vazamento de recursos (resource leak).
 
 ---
+
 *Estes exercícios fazem parte da minha jornada de estudos baseada no curso "Java para Iniciantes" do Curso em Vídeo (Prof. Gustavo Guanabara).*
