@@ -4,7 +4,7 @@ Este módulo representa um grande salto na minha lógica de programação. Aqui,
 
 ## 📝 Projetos Neste Módulo:
 
-* **`ProdutoPromocao`**(⭐ Destaque de Estrutura Moderna):
+* **`ProdutoPromocao`** (⭐ Destaque de Estrutura Moderna):
     * **Descrição:** Simulador de PDV para camisas de times com aplicação de 5% de desconto automático.
     * **Destaque Técnico:** Uso de **Switch Case Moderno** com `arrow functions` (`->`) e a palavra-chave `yield` para retorno de dados, demonstrando domínio das atualizações do Java 14+.
 
@@ -38,4 +38,10 @@ Este módulo representa um grande salto na minha lógica de programação. Aqui,
 
 ## 🛠️ Tecnologias e Conceitos Explorados:
 
-* **Controle
+* **Controle de Fluxo:** Domínio de `if`, `else if`, `else` e as novas `Switch Expressions`.
+* **Robustez de Código:** Uso de blocos `try-catch` para evitar erros quando o usuário digita letras onde deveriam ser números.
+* **Internacionalização:** Uso de `java.util.Locale` para garantir que o sistema entenda o formato de números e moedas do Brasil.
+* **Matemática Aplicada:** Uso da biblioteca `java.lang.Math` para cálculos de potência e precisão decimal.
+
+---
+*Estes exercícios fazem parte da minha jornada de estudos baseada no curso "Java para Iniciantes" do Curso em Vídeo (Prof. Gustavo Guanabara).*
