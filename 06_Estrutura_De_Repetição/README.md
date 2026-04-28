@@ -1,50 +1,39 @@
-# 🔄 Estruturas de Repetição em Java
+# 🔄 06. Estruturas de Repetição (Parte 1)
 
-Este diretório contém uma série de exercícios práticos focados no domínio de estruturas de controle de fluxo (loops) em Java, como `for`, `while` e `do-while`. Os projetos fazem parte da minha trilha de aprendizado em Lógica de Programação e Desenvolvimento Backend.
+Este módulo foca na base das estruturas de repetição em Java, explorando principalmente o laço `for` e o uso de acumuladores. O objetivo foi resolver problemas clássicos de lógica, como contagens personalizadas, análise de dados de entrada e combinações de valores.
 
-## 🚀 Tecnologias Utilizadas
-* **Java 17+**
-* **Scanner & StringJoiner** (Manipulação de entrada e strings)
-* **TimeUnit** (Controle de tempo/delay)
-* **DecimalFormat** (Formatação numérica)
+## 📝 Projetos Neste Módulo:
 
----
+### 🖥️ Análise e Processamento de Dados
 
-## 📂 Projetos no Diretório
+* **AnalisadorDeValores:**
+    * **Descrição:** Um sistema que recebe 5 números e entrega um relatório detalhado (Soma, Média, Divisíveis por 5 e Nulos).
+    * **Destaque Técnico:** Uso de operadores aritméticos de resto (`%`) para filtragem e `DecimalFormat` para garantir uma saída de média limpa.
 
-### 1. 📊 Análise Estatística
-* `AnalisadorDeValores`
-    * Programa que solicita 5 valores ao usuário e realiza uma análise estatística completa.
-    * **Conceitos:** Loop `for`, acumuladores, contadores e operadores de resto (`%`).
+* **CadastroSeletorDePessoas:**
+    * **Descrição:** Um sistema de triagem que filtra pessoas por sexo, idade e cor de cabelo.
+    * **Destaque Técnico:** Implementação de um **loop de validação robusto** para garantir que o usuário só digite "S" ou "N", tratando erros com `equalsIgnoreCase`.
 
-### 2. 👥 Filtragem Demográfica
-* `CadastroSeletorDePessoas`
-    * Um sistema interativo de triagem (Gênero, Idade, Cor do Cabelo).
-    * **Conceitos:** Estrutura `do-while`, `switch-case` e validação de entrada com `while(true)`.
+### 🔢 Contagens e Lógica Matemática
 
-### 3. 🧩 Lógica Combinatória
-* `Combinacoes`
-    * Gera combinações numéricas entre dois contadores de 1 a 3.
-    * **Conceitos:** Loops aninhados (Nested Loops) e controle de exceções com `try-catch`.
+* **ContagemInteligente:**
+    * **Descrição:** Um contador que identifica se o início é maior que o fim (contagem regressiva) ou menor (contagem crescente) automaticamente.
+    * **Destaque Técnico:** Uso de `StringJoiner` para formatar a lista de números separada por vírgulas, evitando aquela vírgula sobrando no final.
 
-### 4. ⏳ Temporizador Regressivo
-* `ContadorDe10a0`
-    * Uma contagem regressiva simples com pausa de 1 segundo entre os números.
-    * **Conceitos:** Loop `for` com decremento e manipulação de tempo com `TimeUnit`.
+* **ContadorDe10a0:**
+    * **Descrição:** Exercício clássico de contagem regressiva com pausa.
+    * **Destaque Técnico:** Aplicação de `TimeUnit.SECONDS.sleep(1)` para simular o tempo real de um cronômetro.
 
-### 5. 💡 Fluxo Dinâmico
-* `ContagemInteligente`
-    * Realiza uma contagem identificando automaticamente se a ordem deve ser crescente ou decrescente.
-    * **Conceitos:** Condicionais dentro de loops e uso do `StringJoiner` para formatação elegante.
+* **Combinacoes:**
+    * **Descrição:** Algoritmo que gera pares de números utilizando laços aninhados.
+    * **Destaque Técnico:** Domínio de **Nested Loops** (um `for` dentro de outro) para percorrer múltiplas variáveis simultaneamente.
+
+## 🛠️ Tecnologias e Conceitos Explorados:
+
+* **Estrutura For:** Controle preciso de iterações com inicialização, condição e incremento/decremento.
+* **StringJoiner:** Manipulação avançada de strings para saídas formatadas.
+* **Tratamento de Exceções:** Uso de `try-catch` para lidar com interrupções de tempo (`InterruptedException`).
+* **Acumuladores e Contadores:** Lógica de soma composta (`soma += valor`) e incremento de ocorrências.
 
 ---
-
-## 🛠️ Como executar
-1. Certifique-se de ter o JDK instalado.
-2. Clone o repositório.
-3. Abra os arquivos na sua IDE de preferência (ex: NetBeans, IntelliJ).
-4. Execute a classe principal de cada pacote.
-
----
-**Formação:** Análise e Desenvolvimento de Sistemas (UNIMETROCAMP Wyden)  
-**Foco:** Backend | Java
+*Estes exercícios fazem parte da minha jornada de estudos baseada no curso "Java para Iniciantes" do Curso em Vídeo (Prof. Gustavo Guanabara).* tipo assim quero o program assim, só que com os nomes dos programas arrumados
