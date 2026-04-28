@@ -1,26 +1,29 @@
-# 🔄 06. Estruturas de Repetição
+# 🔄 06. Estruturas de Repetição (Parte 1)
 
-Este módulo marca a transição para algoritmos de alta eficiência, focando no domínio de iterações. O objetivo foi explorar as diferentes formas de controle de fluxo repetitivo (`for`, `while` e `do-while`), aplicando-as em cenários de processamento de dados, contagens temporizadas e validações robustas de entrada para garantir uma melhor experiência ao usuário.
+Este módulo foca na base das estruturas de repetição em Java, explorando principalmente o laço `for` e o uso de acumuladores. O objetivo foi resolver problemas clássicos de lógica, como contagens personalizadas, análise de dados de entrada e combinações de valores.
 
-## 📝 O que você vai encontrar aqui:
+## 📝 Projetos Neste Módulo:
 
-* **Processamento de Dados e Estatísticas:**
-    * **`AnalisadorDeValores`**: Um algoritmo que processa uma sequência de entradas para calcular somatórios, médias aritméticas e identificar propriedades como números nulos ou divisíveis por 5.
-    * **`CadastroSeletorDePessoas`** (⭐ Destaque de Lógica): Um sistema de filtragem demográfica que utiliza a estrutura `do-while` para capturar dados e loops `while(true)` internos com `break` para garantir a integridade das entradas via console.
+### 🖥️ Análise e Processamento de Dados
 
-* **Contagens e Fluxos Inteligentes:**
-    * **`ContagemInteligente`**: Um script versátil que identifica automaticamente se a contagem deve ser crescente ou decrescente com base nos limites informados pelo usuário.
-    * **`ContadorDe10a0`**: Implementação de uma contagem regressiva clássica de 10 até 0.
+* **AnalisadorDeValores:**
+    * **Descrição:** Um sistema que recebe 5 números e entrega um relatório detalhado (Soma, Média, Divisíveis por 5 e Nulos).
+    * **Destaque Técnico:** Uso de operadores aritméticos de resto (`%`) para filtragem e `DecimalFormat` para garantir uma saída de média limpa.
 
-* **Iterações Avançadas e Tempo:**
-    * **`Combinacoes`**: Demonstração prática de **Laços Aninhados** (nested loops) para gerar combinações numéricas, essencial para entender estruturas de dados complexas.
+* **CadastroSeletorDePessoas:**
+    * **Descrição:** Um sistema de triagem que filtra pessoas por sexo, idade e cor de cabelo.
+    * **Destaque Técnico:** Implementação de um **loop de validação robusto** para garantir que o usuário só digite "S" ou "N", tratando erros com `equalsIgnoreCase`.
 
-## 🛠️ Tecnologias e Conceitos Explorados:
+### 🔢 Contagens e Lógica Matemática
 
-* **Controle de Iteração**: Domínio completo das estruturas `for` (iterações contadas), `while` (iterações condicionais) e `do-while` (iteração com teste ao final).
-* **Manipulação de Tempo**: Uso da biblioteca `java.util.concurrent.TimeUnit` para criar pausas controladas na execução, tornando as saídas de console mais dinâmicas e realistas.
-* **Formatação Avançada**: Aplicação da classe `StringJoiner` para manipulação elegante de strings em listas e `DecimalFormat` para padronização de resultados numéricos.
-* **Validação de Dados**: Uso de técnicas para forçar entradas válidas (como seleções de [M/F] ou [S/N]), evitando que o programa encerre com erros de digitação do usuário.
+* **ContagemInteligente:**
+    * **Descrição:** Um contador que identifica se o início é maior que o fim (contagem regressiva) ou menor (contagem crescente) automaticamente.
+    * **Destaque Técnico:** Uso de `StringJoiner` para formatar a lista de números separada por vírgulas, evitando aquela vírgula sobrando no final.
 
----
-*Estes exercícios fazem parte da minha jornada de estudos baseada no curso "Java para Iniciantes" do Curso em Vídeo (Prof. Gustavo Guanabara).*
+* **ContadorDe10a0:**
+    * **Descrição:** Exercício clássico de contagem regressiva com pausa.
+    * **Destaque Técnico:** Aplicação de `TimeUnit.SECONDS.sleep(1)` para simular o tempo real de um cronômetro.
+
+* **Combinacoes:**
+    * **Descrição:** Algoritmo que gera pares de números utilizando laços aninhados.
+    * **Destaque Técnico:** Domínio de **Nested Loops** (um `for` dentro de
