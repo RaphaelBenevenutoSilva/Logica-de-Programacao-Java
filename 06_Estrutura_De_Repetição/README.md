@@ -1,35 +1,26 @@
 # 🔄 06. Estruturas de Repetição
 
-Este módulo marca a transição para algoritmos de alta eficiência. O objetivo foi dominar o controle de iterações utilizando as estruturas `for`, `while` e `do-while`. Os projetos aqui exploram desde contagens simples até o processamento complexo de dados com validações robustas e manipulação de tempo.
+Este módulo marca a transição para algoritmos de alta eficiência, focando no domínio de iterações. O objetivo foi explorar as diferentes formas de controle de fluxo repetitivo (`for`, `while` e `do-while`), aplicando-as em cenários de processamento de dados, contagens temporizadas e validações robustas de entrada para garantir uma melhor experiência ao usuário.
 
-## 📝 Projetos Neste Módulo:
+## 📝 O que você vai encontrar aqui:
 
-* **CadastroSeletorDePessoas (⭐ Destaque de Lógica e Validação)**
-    * **Descrição:** Sistema de filtragem demográfica que coleta sexo, idade e cor de cabelo, gerando estatísticas específicas.
-    * **Destaque Técnico:** Uso da estrutura `do-while` para garantir a execução inicial e loops internos `while(true)` com `break` para validar entradas de dados de forma rigorosa.
+* **Processamento de Dados e Estatísticas:**
+    * **AnalisadorDeValores**: Um algoritmo que processa uma sequência de entradas para calcular somatórios, médias aritméticas e identificar propriedades como números nulos ou divisíveis por 5.
+    * **CadastroSeletorDePessoas (⭐ Destaque de Lógica)**: Um sistema de filtragem demográfica que utiliza a estrutura `do-while` para capturar dados e loops `while(true)` internos com `break` para garantir a integridade das entradas via console.
 
-* **AnalisadorDeValores**
-    * **Descrição:** Processa uma lista de números para calcular soma, média, valores nulos e somatório de pares.
-    * **Destaque Técnico:** Implementação de acumuladores e contadores dentro de um laço `for`, com uso de `DecimalFormat` para precisão da média.
+* **Contagens e Fluxos Inteligentes:**
+    * **ContagemInteligente**: Um script versátil que identifica automaticamente se a contagem deve ser crescente ou decrescente com base nos limites informados pelo usuário.
+    * **ContadorDe10a0**: Implementação de uma contagem regressiva clássica de 10 até 0.
 
-* **ContagemInteligente**
-    * **Descrição:** Realiza contagens que se adaptam automaticamente (crescente ou decrescente) com base nos valores de início e fim.
-    * **Destaque Técnico:** Uso da classe `StringJoiner` para formatar a saída dos números com vírgulas de forma elegante, demonstrando conhecimento de bibliotecas nativas do Java.
-
-* **ContadorDe10a0**
-    * **Descrição:** Uma contagem regressiva clássica de 10 até 0 com intervalo de tempo.
-    * **Destaque Técnico:** Implementação da biblioteca `java.util.concurrent.TimeUnit` para criar pausas de 1 segundo entre os números, tornando o código mais legível que o uso de milissegundos puros.
-
-* **Combinacoes**
-    * **Descrição:** Gera todas as combinações possíveis entre dois conjuntos de números.
-    * **Destaque Técnico:** Domínio de **Laços Aninhados** (um `for` dentro de outro), conceito fundamental para trabalhar com matrizes e algoritmos de busca.
+* **Iterações Avançadas e Tempo:**
+    * **Combinacoes**: Demonstração prática de **Laços Aninhados** (nested loops) para gerar combinações numéricas, essencial para entender estruturas de dados complexas.
 
 ## 🛠️ Tecnologias e Conceitos Explorados:
 
-* **Controle de Iteração:** Domínio prático de `for` (iteração contada), `while` (iteração condicional) e `do-while` (iteração com teste no fim).
-* **Robustez e Tempo:** Uso de `try-catch` para lidar com interrupções de thread e a classe `TimeUnit` para controle de execução.
-* **Manipulação de Strings:** Formatação avançada de saídas no console usando `StringJoiner` e `printf`.
-* **Lógica de Acumulação:** Uso inteligente de variáveis para somar e contar ocorrências dentro de loops.
+* **Controle de Iteração**: Domínio completo das estruturas `for` (iterações contadas), `while` (iterações condicionais) e `do-while` (iteração com teste ao final).
+* **Manipulação de Tempo**: Uso da biblioteca `java.util.concurrent.TimeUnit` para criar pausas controladas na execução, tornando as saídas de console mais dinâmicas e realistas.
+* **Formatação Avançada**: Aplicação da classe `StringJoiner` para manipulação elegante de strings em listas e `DecimalFormat` para padronização de resultados numéricos.
+* **Validação de Dados**: Uso de técnicas para forçar entradas válidas (como seleções de [M/F] ou [S/N]), evitando que o programa encerre com erros de digitação do usuário.
 
 ---
 *Estes exercícios fazem parte da minha jornada de estudos baseada no curso "Java para Iniciantes" do Curso em Vídeo (Prof. Gustavo Guanabara).*
