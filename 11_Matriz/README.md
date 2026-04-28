@@ -1,39 +1,40 @@
 ## 📦 11. Matrizes
 
-Este módulo foca no domínio de **Estruturas Multidimensionais**, explorando a manipulação de dados em linhas e colunas para resolver problemas estatísticos e lógicas de sistemas complexos.
+Este módulo marca o aprofundamento em **Estruturas de Dados Multidimensionais**, focando na manipulação de tabelas (linhas e colunas) para resolver problemas complexos, processar dados estatísticos e criar lógicas de jogos interativos.
 
 ### 📝 Projetos Neste Módulo:
 
 #### 🎮 **`JogoDaVelhaMatriz`** (⭐ Destaque de Lógica)
 * **Descrição**: Implementação completa do clássico Jogo da Velha para dois jogadores.
-* **Destaque Técnico**: Modularização da lógica de vitória em classe externa, validando todas as possibilidades em uma matriz `3x3`.
+* **Destaque Técnico**: Modularização da verificação de vitória em uma classe externa (`verificadorVencedor`), validando horizontal, vertical e diagonais em uma matriz `3x3`.
 
 #### 🛠️ **`MenuMatrizes`**
-* **Descrição**: Painel interativo para filtragem e visualização seletiva de elementos.
-* **Destaque Técnico**: Lógica para isolar a **Diagonal Principal** e os **Triângulos** (Superior e Inferior) de uma matriz `4x4`.
+* **Descrição**: Painel interativo para visualização seletiva de elementos de uma matriz `4x4`.
+* **Destaque Técnico**: Lógica de filtragem para exibir apenas a **Diagonal Principal**, **Triângulo Superior** ou **Triângulo Inferior**.
 
-#### 🔢 **`ValoresMatriz`**
-* **Descrição**: Analisador estatístico completo para processamento de massas de dados.
-* **Destaque Técnico**: Cálculos de soma, produtos de linhas específicas e médias aritméticas formatadas.
+#### 📊 **`ValoresMatriz`**
+* **Descrição**: Analisador estatístico que processa uma matriz preenchida automaticamente.
+* **Destaque Técnico**: Cálculos de soma de diagonais, produto de linhas específicas (`long`), busca de maior valor em colunas e média aritmética global.
 
-#### 🏗️ **`matrizIdentidade`**
+#### 🔢 **`matrizIdentidade`**
 * **Descrição**: Gerador automático de Matriz Identidade de ordem 3.
-* **Destaque Técnico**: Implementação da condição fundamental `if (i == j)` para atribuição da diagonal principal.
+* **Destaque Técnico**: Uso de condicionais `if (i == j)` dentro de laços aninhados para atribuição binária.
 
 #### 🔍 **`matrizPar`**
-* **Descrição**: Algoritmo de varredura para identificação e contagem de números pares.
-* **Destaque Técnico**: Uso de operadores lógicos e de módulo para filtragem de dados em tempo de execução.
+* **Descrição**: Scanner de valores pares com destaque visual na exibição da tabela.
+* **Destaque Técnico**: Uso do operador de módulo `%` para identificação e contagem (`totPar`) de elementos.
 
 #### 📥 **`LerMatriz`**
-* **Descrição**: Exercício base para entrada de dados via console e organização em grade.
+* **Descrição**: Exercício de fixação para entrada e saída de dados multidimensionais (`3x2`).
 
 ---
 
 ### 🛠️ Tecnologias e Conceitos Explorados:
 
-* **Matrizes (Arrays 2D)**: Armazenamento organizado em grades bidimensionais.
-* **Laços Aninhados**: Uso de `for` dentro de `for` para percorrer índices de linha e coluna.
-* **Formatação de Console**: Uso de `printf` e `.repeat()` para criar divisórias e tabelas limpas.
+* **Matrizes (Arrays 2D)**: Armazenamento e indexação de dados em grades de linhas e colunas.
+* **Laços Aninhados**: Uso intensivo de `for` dentro de `for` para varredura completa de estruturas.
+* **Classe Random**: Geração de massas de dados aleatórios para testes de algoritmos.
+* **Interface de Console**: Formatação avançada com `System.out.printf` e `.repeat()` para criação de menus e tabelas.
 
 ---
 
