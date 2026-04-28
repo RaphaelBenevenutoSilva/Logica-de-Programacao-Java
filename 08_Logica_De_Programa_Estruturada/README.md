@@ -7,7 +7,7 @@ Este módulo explora a **Modularização** em Java, substituindo grandes blocos 
 ### ⚖️ Evolução: Detecção de Pesos
 * **`DetectorDePesadoFeitoPeloGermini`** (⭐ Destaque de Modularização):
     * **Descrição:** Versão otimizada do detector de peso que utiliza um procedimento externo para o cabeçalho.
-    * **Destaque Técnico:** Uso do procedimento `Topo(m, p)` para desenhar a interface dinamicamente, recebendo o maior peso e o nome do recordista como parâmetros, evitando repetição de código (`DRY - Don't Repeat Yourself`).
+    * **Destaque Técnico:** Uso do procedimento `Topo(m, p)` para desenhar a interface dinamicamente, recebendo o maior peso e o nome do recordista como parâmetros, evitando repetição de código .
 * **`DetectorDePesado`**:
     * **Descrição:** Versão linear original para análise de pesos de 5 pessoas.
     * **Destaque Técnico:** Lógica de comparação simples dentro do `main` e uso de `teclado.nextLine()` para garantir que o buffer do Scanner não pule a leitura dos nomes.
