@@ -26,4 +26,14 @@ Este módulo foca na base das estruturas de repetição em Java, explorando prin
 
 * **Combinacoes:**
     * **Descrição:** Algoritmo que gera pares de números utilizando laços aninhados.
-    * **Destaque Técnico:** Domínio de **Nested Loops** (um `for` dentro de
+    * **Destaque Técnico:** Domínio de **Nested Loops** (um `for` dentro de outro) para percorrer múltiplas variáveis simultaneamente.
+
+## 🛠️ Tecnologias e Conceitos Explorados:
+
+* **Estrutura For:** Controle preciso de iterações com inicialização, condição e incremento/decremento.
+* **StringJoiner:** Manipulação avançada de strings para saídas formatadas.
+* **Tratamento de Exceções:** Uso de `try-catch` para lidar com interrupções de tempo (`InterruptedException`).
+* **Acumuladores e Contadores:** Lógica de soma composta (`soma += valor`) e incremento de ocorrências.
+
+---
+*Estes exercícios fazem parte da minha jornada de estudos baseada no curso "Java para Iniciantes" do Curso em Vídeo (Prof. Gustavo Guanabara).*
