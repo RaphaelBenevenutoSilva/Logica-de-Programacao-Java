@@ -27,9 +27,4 @@ Os exercícios fazem parte da minha jornada de estudos em **Análise e Desenvolv
 
 ---
 
-## 🚀 Como executar:
 
-1. Certifique-se de ter o **JDK 17+** instalado.
-2. Clone o repositório:
-   ```bash
-   git clone [https://github.com/RaphaelBenevenutoSilva/Logica-de-Programacao-Java.git](https://github.com/RaphaelBenevenutoSilva/Logica-de-Programacao-Java.git)
