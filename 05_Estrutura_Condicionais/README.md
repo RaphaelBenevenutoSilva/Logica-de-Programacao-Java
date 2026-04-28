@@ -1,47 +1,45 @@
 # ⚖️ 05. Estruturas Condicionais
 
-Este módulo representa um grande salto na minha lógica de programação. Aqui, deixei de lado a execução linear para explorar o controle de fluxo inteligente. Os projetos abaixo cobrem desde decisões simples (`if-else`) até seleções múltiplas avançadas, com foco em código limpo e experiência do usuário.
+Este diretório reúne projetos focados na tomada de decisão em Java. Aqui explorei desde condições simples e compostas até estruturas de seleção múltipla e o uso moderno do `switch expression`.
 
 ## 📝 Projetos Neste Módulo:
 
-* **`ProdutoPromocao`** (⭐ Destaque de Estrutura Moderna):
-    * **Descrição:** Simulador de PDV para camisas de times com aplicação de 5% de desconto automático.
-    * **Destaque Técnico:** Uso de **Switch Case Moderno** com `arrow functions` (`->`) e a palavra-chave `yield` para retorno de dados, demonstrando domínio das atualizações do Java 14+.
+### 🏥 Saúde e Demografia
 
-* **`CalculoIMC`**:
-    * **Descrição:** Calcula o Índice de Massa Corporal e classifica a saúde do usuário em 7 níveis diferentes.
-    * **Destaque Técnico:** Implementação de **Condicionais Encadeadas** complexas e uso da classe `DecimalFormat` para padronizar a exibição dos resultados.
+* **CalculoIMC:**
+    * **Descrição:** Calcula o Índice de Massa Corporal e classifica a situação do usuário (Peso ideal, Obesidade, etc.).
+    * **Destaque Técnico:** Uso de `if-else if` encadeado para múltiplas faixas de valores e `Math.pow` para cálculos de potência.
 
-* **`NovoSalario`**:
-    * **Descrição:** Calcula o reajuste salarial anual baseado no número de dependentes da família.
-    * **Destaque Técnico:** Uso eficiente de **Múltiplos Rótulos** em um único `case`, reduzindo linhas de código e facilitando a manutenção.
+* **MaiorIdade:**
+    * **Descrição:** Verifica se o usuário já atingiu a maioridade penal com base no ano atual e de nascimento.
+    * **Destaque Técnico:** Lógica simples de comparação (`idade >= 18`) para fluxos binários.
 
-* **`OpcaoCriancaEsperanca`**:
-    * **Descrição:** Menu interativo de doações com opções pré-definidas e valor livre.
-    * **Destaque Técnico:** Comparação de performance e legibilidade entre o uso de `if-else` e a organização por menus.
+### 💰 Finanças e Doações
 
-* **`NotaAluno`**:
-    * **Descrição:** Sistema de gestão escolar que define se o aluno está Aprovado, em Recuperação ou Reprovado.
-    * **Destaque Técnico:** Uso de **Operadores Lógicos** (`&&`) para definir faixas de notas precisas entre a aprovação e a recuperação.
+* **NovoSalario:**
+    * **Descrição:** Calcula o aumento salarial de um funcionário com base no número de dependentes.
+    * **Destaque Técnico:** Implementação do **Switch Expression** (Java moderno), permitindo atribuir o resultado da condição diretamente a uma variável.
 
-* **`MaiorIdade`**:
-    * **Descrição:** Verifica a maioridade do usuário com base no ano atual e ano de nascimento.
-    * **Destaque Técnico:** Aplicação de **Condicional Composta** para gerar saídas de texto dinâmicas e personalizadas.
+* **OpcaoCriancaEsperanca (e Versão Switch):**
+    * **Descrição:** Menu interativo para escolha de valores de doação.
+    * **Destaque Técnico:** Comparação prática entre a mesma lógica usando `if-else` vs. `switch-case`, além da formatação de moeda para o padrão brasileiro (`pt-BR`).
 
-* **`ParImpar`**:
-    * **Descrição:** Identifica se um número inteiro qualquer é par ou ímpar.
-    * **Destaque Técnico:** Uso do **Operador Aritmético de Resto** (`%`) dentro de uma estrutura condicional simples.
+* **ProdutoPromocao:**
+    * **Descrição:** Simulador de e-commerce de camisas de time com cálculo automático de 5% de desconto.
+    * **Destaque Técnico:** Uso de **Try-Catch** para tratamento de exceções, evitando que o programa trave caso o usuário digite um texto em vez de um número.
 
-* **`Teste`** (Lógica de Função):
-    * **Descrição:** Um projeto de teste para validar operações matemáticas baseadas em condições de números pares/ímpares.
-    * **Destaque Técnico:** Integração de **Métodos Estáticos (Funções)** com estruturas de repetição (`for`) e decisão, calculando somatórios dinâmicos.
+### 🧮 Lógica e Testes
+
+* **NotaAluno:**
+    * **Descrição:** Sistema escolar que define se o aluno foi aprovado, reprovado ou está em recuperação.
+    * **Destaque Técnico:** Uso de operadores lógicos (`&&`) para definir intervalos exatos de notas.
+
+* **ParImpar:**
+    * **Descrição:** Verifica a paridade de um número inteiro.
+    * **Destaque Técnico:** Aplicação do operador de módulo (`%`) para identificação de restos de divisão.
 
 ## 🛠️ Tecnologias e Conceitos Explorados:
 
-* **Controle de Fluxo:** Domínio de `if`, `else if`, `else` e as novas `Switch Expressions`.
-* **Robustez de Código:** Uso de blocos `try-catch` para evitar erros quando o usuário digita letras onde deveriam ser números.
-* **Internacionalização:** Uso de `java.util.Locale` para garantir que o sistema entenda o formato de números e moedas do Brasil.
-* **Matemática Aplicada:** Uso da biblioteca `java.lang.Math` para cálculos de potência e precisão decimal.
-
----
-*Estes exercícios fazem parte da minha jornada de estudos baseada no curso "Java para Iniciantes" do Curso em Vídeo (Prof. Gustavo Guanabara).*
+* **Switch Case & Yield:** Controle de fluxo para seleções múltiplas e blocos de código em switches.
+* **Locale & NumberFormat:** Internacionalização (i18n) para exibir valores monetários em Real (R$).
+* **Operadores Lógicos:** Uso de
