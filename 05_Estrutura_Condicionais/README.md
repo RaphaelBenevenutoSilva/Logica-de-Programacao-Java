@@ -1,28 +1,35 @@
-# ⚖️ 05. Estruturas Condicionais
+# 🚀 Estruturas Condicionais em Java
 
-Este módulo foca no controle de fluxo de uma aplicação Java. Explorei desde condicionais simples e compostas até as estruturas mais modernas de seleção múltipla, fundamentais para criar algoritmos que tomam decisões baseadas em variáveis e entradas do usuário.
+Este repositório contém uma série de exercícios práticos focados no aprendizado de **Estruturas Condicionais** (Simples, Compostas, Encadeadas e Múltipla Escolha) na linguagem Java. 
 
-## 📝 Projetos Neste Módulo:
+Os exercícios fazem parte da minha jornada de estudos em **Análise e Desenvolvimento de Sistemas**, seguindo a metodologia do Prof. Gustavo Guanabara (Curso em Vídeo) e referências de mercado como Fernanda Kipper.
 
-* **CalculoIMC**
-    * **Descrição:** Lê massa e altura, calcula o IMC e classifica a saúde do usuário.
-    * **Destaque Técnico:** Uso de `if / else if` encadeados e a classe `Math.pow` para o cálculo da potência.
-* **ProdutoPromocao**
-    * **Descrição:** Simulador de loja com menu de camisas de time e aplicação de desconto automático.
-    * **Destaque Técnico:** Implementação do **Switch Case Moderno** com o uso de `yield` para retorno de valores dentro de blocos.
-* **NovoSalario**
-    * **Descrição:** Calcula o aumento salarial baseado no número de dependentes do funcionário.
-    * **Destaque Técnico:** Uso de `switch` com múltiplos rótulos por linha (`case 1, 2, 3 ->`) para simplificar a lógica.
-* **OpcaoCriancaEsperanca**
-    * **Descrição:** Sistema de menu para doações com opção de valor personalizado.
-    * **Destaque Técnico:** Comparação prática entre a estrutura `if-else` e `switch-case` para menus de opções.
-
-## 🛠️ Tecnologias e Conceitos Explorados:
-
-* **Lógica de Seleção:** Domínio de `if`, `else`, `else if` e a importância do fechamento de chaves.
-* **Switch Expressions:** Uso das novas sintaxes do Java para tornar o código mais limpo e legível.
-* **Tratamento de Exceções:** Implementação de blocos `try-catch` para capturar erros de entrada (letras em campos numéricos).
-* **Localização e Moeda:** Uso de `Locale("pt", "BR")` e `NumberFormat` para exibir valores corretamente em Real (R$).
+## 🛠️ O que foi praticado:
+* **Condicionais if/else:** Controle de fluxo para decisões lógicas.
+* **Switch Case (Modern Java):** Utilização de `switch expressions` e `yield` para códigos mais limpos.
+* **Manipulação de Dados:** Uso da classe `Scanner` para entrada de dados.
+* **Formatação:** Uso de `DecimalFormat`, `NumberFormat` e `Locale` para moeda brasileira (R$).
+* **Tratamento de Erros:** Implementação de blocos `try-catch` para evitar crash do programa.
 
 ---
-*Estes exercícios fazem parte da minha jornada de estudos baseada no curso "Java para Iniciantes" do Curso em Vídeo (Prof. Gustavo Guanabara).*
+
+## 📂 Projetos no Repositório:
+
+| Projeto | Descrição | Conceito Chave |
+| :--- | :--- | :--- |
+| **CalculoIMC** | Calcula o índice de massa corporal e classifica a situação de saúde. | `if / else if` encadeado |
+| **NotaAluno** | Verifica se um aluno foi aprovado, reprovado ou está em recuperação. | Lógica de Médias |
+| **ProdutoPromocao** | Simulador de loja de camisas de time com cálculo de 5% de desconto. | `Switch case` com `yield` |
+| **NovoSalario** | Calcula reajuste salarial baseado na quantidade de dependentes. | `Switch case` moderno |
+| **MaiorIdade** | Verifica se o usuário já atingiu a maioridade legal. | Condicional simples |
+| **ParImpar** | Identifica se um número inteiro é par ou ímpar. | Operador de resto `%` |
+| **OpcaoCriancaEsperanca** | Menu de doações com múltiplas opções e valores personalizados. | `Switch` vs `If/Else` |
+
+---
+
+## 🚀 Como executar:
+
+1. Certifique-se de ter o **JDK 17+** instalado.
+2. Clone o repositório:
+   ```bash
+   git clone [https://github.com/RaphaelBenevenutoSilva/Logica-de-Programacao-Java.git](https://github.com/RaphaelBenevenutoSilva/Logica-de-Programacao-Java.git)
