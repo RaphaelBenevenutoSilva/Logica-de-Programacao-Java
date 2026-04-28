@@ -21,4 +21,4 @@ Repositório dedicado ao estudo dos fundamentos de programação utilizando a li
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/RaphaelBenevenutoSilva/Logica-de-Programacao-Java.git](https://github.com/RaphaelBenevenutoSilva/Logica-de-Programacao-Java.git)
+   https://github.com/RaphaelBenevenutoSilva/Logica-de-Programacao-Java.git
