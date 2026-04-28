@@ -1,51 +1,41 @@
-## 📂 11. Matrizes
+## 📦 11. Matrizes
 
-Este módulo foca no estudo de **arrays multidimensionais** em Java. Os exercícios exploram desde a leitura básica até a implementação de lógica de jogos e manipulação de diagonais.
+Este módulo marca o aprofundamento em **Estruturas de Dados Multidimensionais**, focando na manipulação de tabelas (linhas e colunas) para resolver problemas complexos, processar dados estatísticos e criar lógicas de jogos interativos.
 
----
+### 📝 Projetos Neste Módulo:
 
-### 🎮 Lógica de Jogos
+#### 🎮 Jogos e Entretenimento
+* **JogoDaVelhaMatriz** (⭐ Destaque de Lógica):
+    * **Descrição**: Implementação completa do clássico Jogo da Velha para dois jogadores.
+    * **Destaque Técnico**: Modularização da verificação de vitória em uma classe externa (`verificadorVencedor`), validando horizontal, vertical e diagonais em uma matriz `3x3`.
 
-#### **JogoDaVelhaMatriz**
-* **Descrição**: Implementação completa do clássico Jogo da Velha para dois jogadores (X e O).
-* **Destaque Técnico**: Uso de uma matriz 3x3 para o tabuleiro e separação da lógica de validação de vitória em uma classe auxiliar (`verificadorVencedor`), verificando linhas, colunas e diagonais.
+#### 🛠️ Manipulação de Dados e Menus
+* **MenuMatrizes**:
+    * **Descrição**: Painel interativo para visualização seletiva de elementos de uma matriz `4x4`.
+    * **Destaque Técnico**: Lógica de filtragem para exibir apenas a **Diagonal Principal**, **Triângulo Superior** ou **Triângulo Inferior**.
 
----
+* **ValoresMatriz**:
+    * **Descrição**: Analisador estatístico que processa uma matriz preenchida automaticamente.
+    * **Destaque Técnico**: Cálculos de soma de diagonais, produto de linhas específicas (`long`), busca de maior valor em colunas e média aritmética global.
 
-### 🛠️ Manipulação e Menus Interativos
-
-#### **MenuMatrizes**
-* **Descrição**: Sistema interativo que permite escolher diferentes formas de visualizar uma matriz 4x4.
-* **Destaque Técnico**: Implementação de filtros para exibir apenas a Diagonal Principal, o Triângulo Superior ou o Triângulo Inferior usando `switch` e `do-while`.
-
-#### **ValoresMatriz**
-* **Descrição**: Realiza cálculos estatísticos em uma matriz 4x4 preenchida aleatoriamente.
-* **Destaque Técnico**: Cálculo da soma da diagonal principal, produto da segunda linha, maior valor da terceira coluna e média aritmética total.
-
----
-
-### 🔢 Estruturas Fundamentais
-
-#### **matrizIdentidade**
-* **Descrição**: Gera automaticamente uma matriz identidade de ordem 3.
-* **Destaque Técnico**: Uso de loops aninhados com a condição `if (i == j)` para atribuir o valor 1 apenas à diagonal principal.
-
-#### **matrizPar**
-* **Descrição**: Identifica e destaca visualmente os números pares em uma matriz 3x3.
-* **Destaque Técnico**: Uso do operador de resto (`%`) para filtragem e contagem total de ocorrências pares.
-
-#### **LerMatriz**
-* **Descrição**: Exercício base para entender a entrada de dados em matrizes.
-* **Destaque Técnico**: Captura de valores via `Scanner` para preencher uma matriz 3x2 e exibição formatada.
+#### 🔢 Algoritmos e Estruturas Base
+* **matrizIdentidade**:
+    * **Descrição**: Gerador automático de Matriz Identidade de ordem 3.
+    * **Destaque Técnico**: Uso de condicionais `if (i == j)` dentro de laços aninhados para atribuição binária.
+* **matrizPar**:
+    * **Descrição**: Scanner de valores pares com destaque visual na exibição da tabela.
+    * **Destaque Técnico**: Uso do operador de módulo `%` para identificação e contagem (`totPar`) de elementos.
+* **LerMatriz**:
+    * **Descrição**: Exercício de fixação para entrada e saída de dados multidimensionais (`3x2`).
 
 ---
 
-### 🚀 Tecnologias e Conceitos
+### 🛠️ Tecnologias e Conceitos Explorados:
 
-* **Arrays Multidimensionais**: Manipulação de índices de linhas e colunas.
-* **Loops Aninhados**: Uso de `for` dentro de `for` para percorrer as estruturas.
-* **Classe Random**: Geração de números aleatórios para testes rápidos.
-* **Interface de Console**: Uso de `.repeat()` e `printf` para organizar a saída.
+* **Matrizes (Arrays 2D)**: Armazenamento e indexação de dados em grades de linhas e colunas.
+* **Laços Aninhados**: Uso intensivo de `for` dentro de `for` para varredura completa de estruturas.
+* **Classe Random**: Geração de massas de dados aleatórios para testes de algoritmos.
+* **Interface de Console**: Formatação avançada com `System.out.printf` e `.repeat()` para criação de menus e tabelas.
 
 ---
 
